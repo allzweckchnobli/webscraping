@@ -1,0 +1,192 @@
+/*-- scss:defaults --*/
+
+// Colors
+// UZH Blue Shades
+$uzh-blue: #0028A5;
+$blue-1: #BDC9E8;
+$blue-2: #7596FF;
+$blue-3: #3062FF;
+$blue-4: #001E7C;
+$blue-5: #001452;
+
+// UZH Cyan Shades
+$uzh-cyan: #4AC9E3;
+$cyan-1: #DBF4F9;
+$cyan-2: #B7E9F4;
+$cyan-3: #92DFEE;
+$cyan-4: #1EA7C4;
+$cyan-5: #147082;
+
+// UZH Apple Shades
+$uzh-apple: #A4D233;
+$apple-1: #ECF6D6;
+$apple-2: #DBEDAD;
+$apple-3: #C8E485;
+$apple-4: #7CA023;
+$apple-5: #536B18;
+
+// UZH Gold Shades
+$uzh-gold: #FFC845;
+$gold-1: #FFF4DA;
+$gold-2: #FFE9B5;
+$gold-3: #FFDE8F;
+$gold-4: #F3AB00;
+$gold-5: #A27200;
+
+// UZH Orange Shades
+$uzh-orange: #FC4C02;
+$orange-1: #FFDBCC;
+$orange-2: #FEB799;
+$orange-3: #FE9367;
+$orange-4: #BD3902;
+$orange-5: #7E2601;
+
+// UZH Berry Shades
+$uzh-berry: #BF0D3E;
+$berry-1: #FBC6D4;
+$berry-2: #F78CAA;
+$berry-3: #F3537F;
+$berry-4: #8F0A2E;
+$berry-5: #60061F;
+
+// UZH Black and Greys
+$uzh-black: #000000;
+$grey-1: #C2C2C2;
+$grey-2: #A3A3A3;
+$grey-3: #666666;
+$grey-4: #4D4D4D;
+$grey-5: #333333;
+
+// UZH White and Light Greys
+$uzh-white: #FFFFFF;
+$light-grey-1: #FAFAFA;
+$light-grey-2: #EFEFEF;
+$light-grey-3: #E7E7E7;
+$light-grey-4: #E0E0E0;
+$light-grey-5: #D7D7D7;
+
+
+/*-- scss:rules --*/
+
+
+/*-- general formatting --*/
+.slides {
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+  font-family: Arial, sans-serif;
+}
+
+.reveal .progress .progress-bar {
+  background: $uzh-blue; /* Change this to your desired color */
+}
+
+.reveal .fa-easel2 {
+  color: $uzh-blue;               /* Change button icon color */
+}
+
+/* Menu button customization */
+.reveal .fa-brush {
+  color: $uzh-blue;
+}
+
+
+/*-- Fonts & Highlights --*/
+
+.reveal .title {
+  color: $uzh-blue;
+}
+
+.slides h1 {
+  color: $blue-3;
+}
+
+.slides h2{
+  color: $blue-4;
+}
+
+.slides h4{
+  color: $blue-4;
+  font-size: 1.1em;
+}
+
+.highlight-p {
+  color: $uzh-blue;
+  font-size: 1.1em;
+}
+
+.aside-footnotes {
+  color: $grey-4;
+  font-size: 0.5em;
+}
+
+.quote-p {
+  color: $blue-3;
+  font-size: 0.7em;
+  font-style: oblique;
+  padding-left: 40px;
+}
+
+.source-p {
+  color: $blue-4;
+  font-size: 0.5em;
+  text-align: end;
+}
+
+.center-p {
+  text-align: center;
+}
+
+.caption {
+  text-align: center;
+  font-size: 0.8em;
+  color: $grey-4;
+}
+
+.slides figcaption {
+  text-align: center;
+  font-size: 0.8em;
+  color: $grey-4;
+}
+
+.panel-tabset-tabby{
+  color: $uzh-blue !important;
+  font-size: 0.7em;
+}
+
+.slides blockquote {
+  color: $blue-4;
+  border-left: 4px solid $blue-4;
+}
+
+.quarto-title-author-name{
+  color: $grey-3;
+  font-size: 0.8em;
+}
+
+.date{
+  color: $grey-3;
+  font-size: 0.6em;
+}
+
+.subtitle{
+  color: $blue-5;
+  font-weight:500 ;
+}
+
+.agenda-active{
+  color: $uzh-blue;
+}
+
+.mittig{
+      text-align: center;
+}
+
+.reveal ol {
+    padding-left: 0.5em; /* Adjust as needed */
+}
+
+/*-- scss:mixins --*/
+/*-- scss:functions --*/
+/*-- scss:uses --*/
