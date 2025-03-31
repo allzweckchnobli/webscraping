@@ -1,0 +1,4 @@
+- source: techlunch31032025.qmd
+  quarto-pub:
+    - id: cd03810f-f2f4-43c2-8156-14e229783865
+      url: 'https://sabou.quarto.pub/automating-online-data-collection-using-web-scraping'
